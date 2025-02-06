@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+    <main>
+        <section class="sign-up">
+            <picture>
+                <source srcset="./assets/images/illustration-sign-up-mobile.svg" media="(max-width: 48rem)">
+                <source srcset="./assets/images/illustration-sign-up-desktop.svg" media="(min-width: 48.063rem)">
+                <img src="./assets/images/illustration-sign-up-mobile.svg" alt="illustration">
+            </picture>
+            <div class="text-wrapper">
+                <h1>Stay updated!</h1>
+
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+                <ul>
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+
+                <form id="email-form" action="#" arial-label="Subscription to newsletter" onsubmit="handleSubmit(event)">
+                    <label for="email">
+                        Email address
+                    </label>
+                    <span class="error-msg">Valid email required</span>
+                    <input type="email" id="email" name="email" placeholder="email@company.com" required>
+
+                    <button type="submit">Subscribe to monthly newsletter</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

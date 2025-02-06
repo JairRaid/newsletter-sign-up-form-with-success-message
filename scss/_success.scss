@@ -1,0 +1,115 @@
+$dark-navy: rgb(36, 39, 66);
+
+@mixin text-header() {
+    color: $dark-navy;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+@mixin text-paragraph() {
+    color: $dark-navy;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+@mixin text-submit() {
+    color: $dark-navy;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+@media(max-width: 48rem) {
+    .success-msg {
+        height: 100%;
+        padding: 149px 24px 0 24px;
+
+        img {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            @include text-header;
+            margin-bottom: 24px;
+        }
+
+        p {
+            @include text-paragraph;
+            margin-bottom: 263px;
+        }
+
+        button {
+            @include text-submit;
+            display: block;
+            padding: 18px 48px 18px 48px;
+            width: 100%;
+            background-color: $dark-navy;
+            color: white;
+            border-radius: 8px;
+            border-style: none;
+            transition: 0.2s ease 0.01s;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                background: linear-gradient(180deg, #FF6A3A, #FF527B);
+                box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
+            }
+        }
+    }
+}
+
+@media(min-width: 48.063rem) {
+    main.success {
+        max-width: 504px;
+        padding: 48px 64px 64px 64px;
+    }
+
+    .success-msg {
+        img {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            @include text-header;
+            font-size: 3.5rem;
+            margin-bottom: 24px;
+        }
+
+        p {
+            @include text-paragraph;
+            margin-bottom: 40px;
+        }
+
+        button {
+            @include text-submit;
+            display: block;
+            padding: 18px 48px 18px 48px;
+            width: 100%;
+            background-color: $dark-navy;
+            color: white;
+            border-radius: 8px;
+            border-style: none;
+            transition: 0.2s ease 0.01s;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                background: linear-gradient(180deg, #FF6A3A, #FF527B);
+                box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
+            }
+        }
+    }
+}
