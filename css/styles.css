@@ -257,6 +257,8 @@ input:not(:placeholder-shown) {
   }
   form button:hover {
     cursor: pointer;
+    background: linear-gradient(180deg, #FF6A3A, #FF527B);
+    box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
   }
   form button:active {
     background: linear-gradient(180deg, #FF6A3A, #FF527B);
@@ -386,6 +388,8 @@ input:not(:placeholder-shown) {
   }
   form button:hover {
     cursor: pointer;
+    background: linear-gradient(180deg, #FF6A3A, #FF527B);
+    box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
   }
   form button:active {
     background: linear-gradient(180deg, #FF6A3A, #FF527B);
@@ -512,6 +516,8 @@ input:not(:placeholder-shown) {
   }
   form button:hover {
     cursor: pointer;
+    background: linear-gradient(180deg, #FF6A3A, #FF527B);
+    box-shadow: 0 16px 32px 0 rgba(255, 97, 85, 0.5);
   }
   form button:active {
     background: linear-gradient(180deg, #FF6A3A, #FF527B);
