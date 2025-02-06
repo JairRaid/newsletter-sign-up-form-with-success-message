@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/JairRaid/newsletter-sign-up-form-with-success-message
+- Live Site URL: https://jairraid.github.io/newsletter-sign-up-form-with-success-message/
 
 ## My process
 
