@@ -247,7 +247,7 @@ input:not(:placeholder-shown) {
     line-height: 150%;
     letter-spacing: 0;
     display: block;
-    padding: 18px 48px 18px 48px;
+    padding: 18px 48px 14px 48px;
     width: 100%;
     background-color: rgb(36, 39, 66);
     color: white;
@@ -377,7 +377,7 @@ input:not(:placeholder-shown) {
     line-height: 150%;
     letter-spacing: 0;
     display: block;
-    padding: 18px 48px 18px 48px;
+    padding: 18px 48px 14px 48px;
     width: 100%;
     background-color: rgb(36, 39, 66);
     color: white;
@@ -504,7 +504,7 @@ input:not(:placeholder-shown) {
     line-height: 150%;
     letter-spacing: 0;
     display: block;
-    padding: 18px 48px 18px 48px;
+    padding: 18px 48px 14px 48px;
     width: 100%;
     background-color: rgb(36, 39, 66);
     color: white;
