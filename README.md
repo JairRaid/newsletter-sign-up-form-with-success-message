@@ -54,4 +54,5 @@ Users should be able to:
 I learned to use a regex pattern to validate an email input value. 
 
 ## Author
-
+- email: rakotonirainyriija@gmail.com
+- facebook: https://web.facebook.com/jair.rakoto.3/
