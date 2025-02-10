@@ -124,7 +124,6 @@
 html,
 body {
   width: 100%;
-  height: 100%;
   background-color: rgb(54, 54, 77);
 }
 
@@ -163,9 +162,8 @@ input:not(:placeholder-shown) {
     justify-content: center;
   }
   main {
+    flex-grow: 1;
     width: 100%;
-    height: 100%;
-    min-height: 862px;
     max-width: 510px;
     background-color: white;
   }
@@ -239,6 +237,7 @@ input:not(:placeholder-shown) {
     letter-spacing: 0;
     opacity: 80%;
     border-radius: 8px;
+    border-style: solid;
     border: solid 1px rgba(25, 24, 43, 0.25);
     margin-bottom: 24px;
     width: 100%;
@@ -251,7 +250,7 @@ input:not(:placeholder-shown) {
     line-height: 150%;
     letter-spacing: 0;
     display: block;
-    padding: 18px 48px 14px 48px;
+    padding: 18px 48px 18px 48px;
     width: 100%;
     background-color: rgb(36, 39, 66);
     color: white;
@@ -270,6 +269,10 @@ input:not(:placeholder-shown) {
   }
 }
 @media (min-width: 48.063rem) and (max-width: 64rem) {
+  html,
+  body {
+    height: 100%;
+  }
   body {
     display: flex;
     justify-content: center;
@@ -382,7 +385,7 @@ input:not(:placeholder-shown) {
     line-height: 150%;
     letter-spacing: 0;
     display: block;
-    padding: 18px 48px 14px 48px;
+    padding: 18px 48px 18px 48px;
     width: 100%;
     background-color: rgb(36, 39, 66);
     color: white;
@@ -401,6 +404,10 @@ input:not(:placeholder-shown) {
   }
 }
 @media (min-width: 64.063rem) {
+  html,
+  body {
+    height: 100%;
+  }
   body {
     display: flex;
     justify-content: center;
@@ -422,12 +429,14 @@ input:not(:placeholder-shown) {
   .sign-up picture img {
     border-radius: 16px;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     min-width: 400px;
   }
   .sign-up .text-wrapper {
     grid-row: 1;
     grid-column: 1/3;
-    margin: 73px 64px 70px 40px;
+    margin: 73px 64px 73px 40px;
   }
   .sign-up .text-wrapper h1 {
     color: rgb(36, 39, 66);
@@ -510,7 +519,7 @@ input:not(:placeholder-shown) {
     line-height: 150%;
     letter-spacing: 0;
     display: block;
-    padding: 18px 48px 14px 48px;
+    padding: 18px 48px 18px 48px;
     width: 100%;
     background-color: rgb(36, 39, 66);
     color: white;
